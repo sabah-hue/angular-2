@@ -1,0 +1,14 @@
+
+<div>============ calculate Age ===============</div>
+<br><br>
+<form>
+
+  <input (keyup)="onKey($event)">
+  <button type="submit" (click)="calculateAge()">Calculate</button>
+  <p [ngClass]="textClass()" *ngIf="DataEnter" > You Have : {{Age}} years </p>
+
+</form>
+
+
+
+

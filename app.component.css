@@ -1,0 +1,13 @@
+
+.ShowColor{
+  color : green;
+}
+.bold{
+  font-size : 2rem;
+}
+.italic{
+  font-style : italic;
+  font-weight: lighter;
+}
+
+
